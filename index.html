@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- ============ CSS ============= -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>To do List vMO</title>
+</head>
+<body>
+  <div class="main-block">
+    <div class="title-block">
+      <h1>To-do List</h1>
+    </div>
+    <div class="input-block white-bg">
+      <input type="text" placeholder="Enter a new task here" id='to-do-text'>
+      <div class="add-btn button blue-bg">+</div>
+    </div>
+    <div class="list-block" id="list-body">
+      <div class="task-block white-bg">
+        <div class="checkbox blue-bg">
+          <input type="checkbox">
+        </div>
+        <div class="task-text">Task 1</div>
+        <div class="delete-btn button blue-bg"></div>
+      </div>
+      <div class="task-block white-bg">
+        <div class="checkbox blue-bg">
+          <input type="checkbox">
+        </div>
+        <div class="task-text">Task 2</div>
+        <div class="delete-btn button blue-bg"></div>
+      </div>
+    </div>
+  </div>
+  <!-- ================ JS ================= -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+</html>
