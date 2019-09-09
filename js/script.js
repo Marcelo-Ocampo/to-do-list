@@ -32,3 +32,11 @@ $(document).ready(function(){
   // ========= Sortable ==========
   $('#list-body').sortable();
 })
+
+// Delete btn practice
+// let deleteBtn = $('.delete-btn');
+// let listBlock = $('.list-block');
+//
+// listBlock.on('click', '.delete-btn', function(){
+//   $(this).parent().remove();
+// })
